@@ -11,6 +11,9 @@ dependencies = [
 ]
 build-backend = "setuptools.build_meta"
 
+[tool.poetry.dependencies]
+python = "<=3.11"
+
 [tool.pytest.ini_options]
 markers = [
     "experimental: tests that will not be executed and may need extra dependencies",
